@@ -1,2 +1,10 @@
 __pycache__/
 *.pyc
+
+# Machine-local approvals stay private; shared policy belongs to the repository.
+.claude/settings.local.json
+.pi/tool-gate.local.json
+
+# Override legacy global ignores for shared native policy.
+!/.codex/config.toml
+!/.opencode/opencode.jsonc
