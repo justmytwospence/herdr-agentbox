@@ -4,8 +4,8 @@ default_permissions = "project"
 extends = "self"
 
 [permissions.project.workspace_roots]
-"/Users/spencerboucher/Projects/dotfiles" = true
+"~/Projects/dotfiles" = true
 
 [permissions.project.filesystem]
-"/Users/spencerboucher/Projects/dotfiles" = "write"
-"/Users/spencerboucher/Projects/pi-plugins" = "read"
+"~/Projects/dotfiles" = "write"
+"~/Projects/pi-plugins" = "read"
